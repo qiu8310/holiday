@@ -1,5 +1,7 @@
 # @mora/holiday
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/qiu8310/holiday.svg)](https://greenkeeper.io/)
+
 * 支持获取 `2010-当前` 的节假日
 * 其它时间范围只能判断是周末还是工作日
 
