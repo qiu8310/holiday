@@ -5,8 +5,8 @@
   "main": "src/holiday",
   "typings": "src/holiday.d.ts",
   "scripts": {
-    "build": "tsc src/holiday.ts",
-    "build:watch": "tsc -w src/holiday.ts",
+    "build": "tsc",
+    "build:watch": "npm run build -- -w",
     "test": "nyc _mocha test/**",
     "report": "nyc report --reporter html --report-dir coverage"
   },
