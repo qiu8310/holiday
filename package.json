@@ -1,0 +1,60 @@
+{
+  "name": "@mora/holiday",
+  "version": "0.0.1",
+  "description": "holiday api",
+  "main": "src/holiday",
+  "typings": "src/holiday.d.ts",
+  "scripts": {
+    "build": "tsc src/holiday.ts",
+    "build:watch": "tsc -w src/holiday.ts",
+    "test": "nyc _mocha test/**",
+    "report": "nyc report --reporter html --report-dir coverage"
+  },
+  "nyc": {
+    "check-coverage": false,
+    "lines": 100,
+    "functions": 100,
+    "branches": 100,
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "config": {
+    "hooks": {
+      "commit-msg": true,
+      "post-merge": true,
+      "pre-push": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiu8310/holiday.git"
+  },
+  "keywords": [
+    "holiday",
+    "china",
+    "节假",
+    "节假日",
+    "节假日API"
+  ],
+  "author": "Mora <qiuzhongleiabc@126.com> (https://qiu8310.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiu8310/holiday/issues"
+  },
+  "homepage": "https://github.com/qiu8310/holiday#readme",
+  "devDependencies": {
+    "@types/mocha": "2.2.41",
+    "@types/node": "^7.0.18",
+    "@types/request-promise": "^4.1.33",
+    "@types/sinon": "2.2.1",
+    "mocha": "^3.3.0",
+    "mora-scripts": "^1.6.2",
+    "nyc": "10.3.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "sinon": "2.2.0",
+    "ts-node": "3.0.4",
+    "typescript": "2.3.2"
+  }
+}
