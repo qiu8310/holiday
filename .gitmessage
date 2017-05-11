@@ -1,0 +1,13 @@
+
+
+# Type keywrods: feat, fix, docs, style, refactor, perf, test, chore, revert
+# Changelog keywrods: Added, Changed, Breaks, Deprecated, Removed, Fixed, Security
+#
+# Example:
+#   fix($compile): couple of unit tests for IE9
+#
+#   Older IEs serialize html uppercased, but IE9 does not...
+#
+#   Closes #392, #400
+#   Breaks foo.bar api, foo.baz should be used instead#
+#
