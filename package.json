@@ -1,6 +1,6 @@
 {
   "name": "@mora/holiday",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "holiday api",
   "main": "src/holiday",
   "typings": "src/holiday.d.ts",
